@@ -1,0 +1,46 @@
+id,name,vendor,usd_input,usd_output,usd_cache,usd_source,cny_input,cny_output,cny_status,cny_source
+claude-opus-5.5,"Claude Opus 5.5",anthropic,4,20,0.2,https://openrouter.ai/models/anthropic/claude-opus-5.5,,,pending,
+deepseek-v4-flash,"DeepSeek V4 Flash",deepseek,0.15,0.6,0.003,https://api-docs.deepseek.com/quick_start/pricing,3,9,verified,https://siliconflow.cn/pricing
+deepseek-v4-pro,"DeepSeek V4 Pro",deepseek,0.66,1.98,0.022,https://api-docs.deepseek.com/quick_start/pricing,9,27,verified,https://api-docs.deepseek.com/zh-cn/quick_start/pricing
+deepseek-v4.1-flash,"DeepSeek V4.1 Flash",deepseek,0.29754,1.19015,0.01488,https://www.alibabacloud.com/help/en/model-studio/models,2,8,verified,https://api-docs.deepseek.com/zh-cn/quick_start/pricing
+doubao-seed-2.0-lite,"豆包 Seed 2.0 Lite",bytedance,0.08906,0.53436,0.01781,https://www.volcengine.com/docs/82379/1330310,0.6,3.6,verified,https://docs.volcengine.com/docs/82379/1099320
+doubao-seed-2.0-pro,"豆包 Seed 2.0 Pro",bytedance,0.47499,2.37494,0.095,https://www.volcengine.com/docs/82379/1330310,3.2,16,verified,https://docs.volcengine.com/docs/82379/1099320
+doubao-seed-2.1-lite,"豆包 Seed 2.1 Lite",bytedance,0.11977,0.40423,0.02395,https://www.volcengine.com/docs/82379/1330310,0.8,2.7,verified,https://docs.volcengine.com/docs/82379/1099320
+doubao-seed-2.1-pro,"豆包 Seed 2.1 Pro",bytedance,0.8983,4.49149,0.17966,https://www.volcengine.com/docs/82379/1330310,6,30,verified,https://docs.volcengine.com/docs/82379/1099320
+doubao-seed-2.1-turbo,"豆包 Seed 2.1 Turbo",bytedance,0.4453,2.22651,0.08906,https://www.volcengine.com/docs/82379/1330310,3,15,verified,https://docs.volcengine.com/docs/82379/1099320
+ernie-5.5-flash,"文心 5.5 Flash",baidu,,,,,2,8,verified,https://finance.sina.cn/2026-11-11/detail-iniyixxy1994456.d.html
+gemini-4-carbon,"Gemini 4 Carbon",google,2,10,0.1,https://openrouter.ai/models/google/gemini-4-carbon,,,pending,
+glm-4.5-air,"GLM-4.5-Air",zhipu,0.11952,0.89637,0.0239,https://docs.bigmodel.cn/cn/guide/start/pricing,0.8,2,verified,https://docs.bigmodel.cn/cn/guide/start/pricing
+glm-4.7,"GLM-4.7",zhipu,0.44819,2.09153,0.08964,https://docs.bigmodel.cn/cn/guide/start/pricing,2,8,verified,https://docs.bigmodel.cn/cn/guide/start/pricing
+glm-4.7-flash,"GLM-4.7-Flash",zhipu,0.0605,0.4,,https://openrouter.ai/models/z-ai/glm-4.7-flash,0,0,verified,https://docs.bigmodel.cn/cn/guide/start/pricing
+glm-5.1,"GLM-5.1",zhipu,0.89637,3.58548,0.19421,https://docs.bigmodel.cn/cn/guide/start/pricing,6,24,verified,https://docs.bigmodel.cn/cn/guide/start/pricing
+glm-5.2,"GLM-5.2",zhipu,1.19516,4.18306,0.29879,https://docs.bigmodel.cn/cn/guide/start/pricing,8,28,verified,https://docs.bigmodel.cn/cn/guide/start/pricing
+glm-5.3,"GLM-5.3",zhipu,1.19516,4.18306,0.29879,https://docs.bigmodel.cn/cn/guide/start/pricing,8,28,verified,https://docs.bigmodel.cn/cn/guide/start/pricing
+glm-5.3-flash,"GLM-5.3-Flash",zhipu,0.11952,0.41831,0.03436,https://docs.bigmodel.cn/cn/guide/start/pricing,0.8,2.8,verified,https://docs.bigmodel.cn/cn/guide/start/pricing
+glm-5.3-flashx,"GLM-5.3-FlashX",zhipu,0.29879,1.04577,0.08516,https://docs.bigmodel.cn/cn/guide/start/pricing,2,7,verified,https://docs.bigmodel.cn/cn/guide/start/pricing
+gpt-6.2-astra,"GPT-6.2 Astra",openai,8,40,0.4,https://openrouter.ai/models/openai/gpt-6.2-astra,,,pending,
+hunyuan-a13b,"混元 A13B Instruct",tencent,0.149447,0.59779,,https://cloud.siliconflow.com/models,0.5,2,verified,https://cloud.tencent.com/document/product/1729/97731
+kimi-k2.6,"Kimi K2.6",moonshot,0.9711,4.0337,0.1643,https://platform.moonshot.cn/docs/api/chat,6.5,27,verified,https://m.blog.csdn.net/aidoudoulong/article/details/171089685
+kimi-k2.7-code,"Kimi K2.7 Code",moonshot,0.9711,4.0337,0.1942,https://platform.moonshot.cn/docs/api/chat,6.5,27,verified,https://m.blog.csdn.net/aidoudoulong/article/details/171089685
+kimi-k3,"Kimi K3",moonshot,2.9879,14.9395,0.2988,https://platform.moonshot.cn/docs/api/chat,20,100,verified,https://m.blog.csdn.net/aidoudoulong/article/details/171089685
+kimi-k3.1-pro,"Kimi K3.1 Pro",moonshot,1.9437,10.1671,0.1944,https://platform.moonshot.cn/docs/api/chat,13,68,verified,https://help.aliyun.com/zh/model-studio/kimi-k3-1-pro
+minimax-m3,"MiniMax M3",minimax,0.3137,1.2549,0.0627,https://platform.minimaxi.com/docs/guides/quickstart,2.1,8.4,verified,https://platform.minimax.cn/docs/guides/pricing
+minimax-m3.1-flash,"MiniMax M3.1 Flash",minimax,0.1494,0.5976,0.0149,https://platform.minimaxi.com/docs/guides/quickstart,1,4,verified,https://platform.minimax.cn/docs/guides/pricing
+qwen-deep-research,"Qwen Deep Research",alibaba,7.742,23.367,,https://www.alibabacloud.com/help/en/model-studio/models,54,163,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen-long,"Qwen Long",alibaba,0.072,0.287,,https://www.alibabacloud.com/help/en/model-studio/models,0.5,2,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3-coder-flash,"Qwen3 Coder Flash",alibaba,0.144,0.574,0.0288,https://www.alibabacloud.com/help/en/model-studio/models,1,4,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3-vl-plus,"Qwen3-VL Plus",alibaba,0.143353,1.433525,0.028671,https://www.alibabacloud.com/help/en/model-studio/models,1,10,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3.5-flash,"Qwen3.5 Flash",alibaba,0.029,0.287,,https://www.alibabacloud.com/help/en/model-studio/models,0.2,2,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3.5-plus,"Qwen3.5 Plus",alibaba,0.115,0.688,,https://www.alibabacloud.com/help/en/model-studio/models,0.8,4.8,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3.6-27b,"Qwen3.6 27B",alibaba,0.449149,2.694894,,https://www.alibabacloud.com/help/en/model-studio/models,3,18,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3.6-flash,"Qwen3.6 Flash",alibaba,0.165,0.99,0.0165,https://www.alibabacloud.com/help/en/model-studio/models,1.2,7.2,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3.6-plus,"Qwen3.6 Plus",alibaba,0.276,1.651,0.0276,https://www.alibabacloud.com/help/en/model-studio/models,2,12,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3.7-flash,"Qwen3.7 Flash",alibaba,0.02962,0.1185,0.005924,https://www.alibabacloud.com/help/en/model-studio/models,0.2,0.8,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3.7-max,"Qwen3.7 Max",alibaba,1.65,4.951,0.33,https://www.alibabacloud.com/help/en/model-studio/models,12,36,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3.7-plus,"Qwen3.7 Plus",alibaba,0.276,1.101,0.0552,https://www.alibabacloud.com/help/en/model-studio/models,2,8,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3.8-flash,"Qwen3.8 Flash",alibaba,0.11875,0.40073,0.014844,https://www.alibabacloud.com/help/en/model-studio/models,0.8,2.7,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen3.8-max,"Qwen3.8 Max",alibaba,1.77744,5.33231,0.22218,https://www.alibabacloud.com/help/en/model-studio/models,12,36,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+qwen4-max,"Qwen4 Max",alibaba,1.497163,4.491489,0.074858,https://www.alibabacloud.com/help/en/model-studio/models,10,30,verified,https://help.aliyun.com/zh/model-studio/model-pricing
+step-3.5-flash,"Step 3.5 Flash",stepfun,0.10461,0.31384,0.02092,https://platform.stepfun.com/docs/zh/overview/concept,0.7,2.1,verified,https://www.navcn.cn/tool/2401.html
+step-3.7-flash,"Step 3.7 Flash",stepfun,0.20175,1.21052,0.04035,https://platform.stepfun.com/docs/zh/overview/concept,1.35,8.1,verified,https://www.navcn.cn/tool/2401.html
+step-5-preview,"Step 5 Preview",stepfun,1.04613,2.98895,0.10461,https://platform.stepfun.com/docs/zh/overview/concept,7,20,verified,https://www.donews.com/news/1/6738086.html

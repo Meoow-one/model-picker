@@ -1,0 +1,91 @@
+{
+  "updatedAt": "2026-11-25",
+  "modelCount": 45,
+  "cnyVerified": 34,
+  "cnyReported": 8,
+  "benchmarks": [
+    {
+      "id": "opencompass_overall",
+      "label": "OpenCompass 司南 · 综合",
+      "source": "OpenCompass 司南官方评测榜单 V3.0",
+      "asOf": "2026-11-20",
+      "count": 13
+    },
+    {
+      "id": "opencompass_knowledge",
+      "label": "OpenCompass 司南 · 知识",
+      "source": "OpenCompass 司南官方评测榜单 V3.0",
+      "asOf": "2026-11-20",
+      "count": 13
+    },
+    {
+      "id": "opencompass_agentic",
+      "label": "OpenCompass 司南 · 智能体",
+      "source": "OpenCompass 司南官方评测榜单 V3.0",
+      "asOf": "2026-11-20",
+      "count": 13
+    },
+    {
+      "id": "superclue_overall",
+      "label": "SuperCLUE 总榜（2026-11）",
+      "source": "SuperCLUE General Leaderboard（2026 年 11 月）",
+      "asOf": "2026-11",
+      "count": 11
+    },
+    {
+      "id": "ttft_ms",
+      "label": "Artificial Analysis · 首 token",
+      "source": "Artificial Analysis",
+      "asOf": "",
+      "count": 5
+    },
+    {
+      "id": "output_tokens_per_s",
+      "label": "Artificial Analysis · 输出速度",
+      "source": "Artificial Analysis",
+      "asOf": "",
+      "count": 5
+    }
+  ],
+  "sources": [
+    {
+      "name": "models.dev",
+      "ok": true,
+      "fetchedAt": "2026-11-25",
+      "count": 10194
+    },
+    {
+      "name": "OpenRouter",
+      "ok": true,
+      "fetchedAt": "2026-11-25",
+      "count": 472
+    },
+    {
+      "name": "LiteLLM",
+      "ok": true,
+      "fetchedAt": "2026-11-25",
+      "count": 7164
+    }
+  ],
+  "warnings": [
+    "qwen3.7-max: LiteLLM 输入价 2.5 与主数据源 1.65 差异 52%",
+    "deepseek-v4-pro: 渠道价差 94%（官方 0.66 vs OpenRouter 1.28 USD/M）",
+    "deepseek-v4-pro: LiteLLM 输入价 1.32 与主数据源 0.66 差异 100%",
+    "deepseek-v4-flash: LiteLLM 输入价 0.3 与主数据源 0.15 差异 100%",
+    "deepseek-v4.1-flash: 渠道价差 53%（官方 0.29754 vs OpenRouter 0.14 USD/M）",
+    "glm-5.3: 渠道价差 94%（官方 1.19516 vs OpenRouter 0.0699 USD/M）",
+    "glm-5.2: 渠道价差 48%（官方 1.19516 vs OpenRouter 0.62 USD/M）",
+    "glm-5.1: 渠道价差 56%（官方 0.89637 vs OpenRouter 1.4 USD/M）",
+    "glm-5.1: LiteLLM 输入价 1.4 与主数据源 0.89637 差异 56%",
+    "glm-4.7: LiteLLM 输入价 0.6 与主数据源 0.44819 差异 34%",
+    "glm-4.5-air: LiteLLM 输入价 0.2 与主数据源 0.11952 差异 67%",
+    "kimi-k3.1-pro: 渠道价差 88%（官方 1.9437 vs OpenRouter 0.2403 USD/M）",
+    "kimi-k3: 渠道价差 94%（官方 2.9879 vs OpenRouter 0.192 USD/M）",
+    "doubao-seed-2.0-lite: 渠道价差 181%（官方 0.08906 vs OpenRouter 0.25 USD/M）",
+    "ernie-5.5-flash: 无可用的美元价格",
+    "ernie-5.5-flash: 缺少 models.dev 数据，上下文/能力可能不完整",
+    "gpt-6.2-astra: 缺少 models.dev 数据，上下文/能力可能不完整",
+    "claude-opus-5.5: 缺少 models.dev 数据，上下文/能力可能不完整",
+    "gemini-4-carbon: 缺少 models.dev 数据，上下文/能力可能不完整"
+  ]
+}

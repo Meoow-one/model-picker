@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "prices": {
+    "qwen4-max": {
+      "input": 10,
+      "output": 30,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "华北2 北京，按量付费；缓存价未在表中列出，另见上下文缓存文档"
+    },
+    "qwen3.8-max": {
+      "input": 12,
+      "output": 36,
+      "cacheRead": 1.5,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "华北2 北京"
+    },
+    "qwen3.8-flash": {
+      "input": 0.8,
+      "output": 2.7,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "华北2 北京"
+    },
+    "qwen3.7-max": {
+      "input": 12,
+      "output": 36,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "华北2 北京"
+    },
+    "qwen3.7-plus": {
+      "input": 2,
+      "output": 8,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "输入 ≤256K；当前有限时 8 折"
+    },
+    "qwen3.6-plus": {
+      "input": 2,
+      "output": 12,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "阶梯价：输入 ≤256K 时 2/12，256K–1M 时 8/48，此处取低档"
+    },
+    "qwen3.5-plus": {
+      "input": 0.8,
+      "output": 4.8,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "阶梯价：≤128K 为 0.8/4.8，128K–256K 为 2/12，256K–1M 为 4/24，此处取低档"
+    },
+    "qwen3.5-flash": {
+      "input": 0.2,
+      "output": 2,
+      "cacheRead": 0.02,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "华北2 北京，输入 ≤128K"
+    },
+    "qwen3.6-flash": {
+      "input": 1.2,
+      "output": 7.2,
+      "cacheRead": 0.12,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "华北2 北京，输入 ≤256K"
+    },
+    "qwen3.6-27b": {
+      "input": 3,
+      "output": 18,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "华北2 北京；该型号未列上下文缓存价"
+    },
+    "qwen3.7-flash": {
+      "input": 0.2,
+      "output": 0.8,
+      "cacheRead": 0.04,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "阶梯价：≤32K 为 0.2/0.8，32K–128K 为 0.6/2.4，128K–256K 为 1.2/4.8，此处取低档"
+    },
+    "qwen3-coder-flash": {
+      "input": 1,
+      "output": 4,
+      "cacheRead": 0.2,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "华北2 北京，输入 ≤32K"
+    },
+    "qwen3-vl-plus": {
+      "input": 1,
+      "output": 10,
+      "cacheRead": 0.2,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "阶梯价：≤32K 为 1/10，32K–128K 为 1.5/15，128K–256K 为 3/30，此处取低档"
+    },
+    "qwen-long": {
+      "input": 0.5,
+      "output": 2,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "官方标注不支持上下文缓存，故无缓存价"
+    },
+    "qwen-deep-research": {
+      "input": 54,
+      "output": 163,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "官方按元/千 token 标价 0.054/0.163，此处已换算为元/百万 token"
+    },
+
+    "deepseek-v4-pro": {
+      "input": 9,
+      "output": 27,
+      "cacheRead": 0.3,
+      "sourceUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "高峰价；空闲时段 4.5/13.5，缓存命中 0.15"
+    },
+    "deepseek-v4.1-flash": {
+      "input": 2,
+      "output": 8,
+      "cacheRead": 0.04,
+      "sourceUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "高峰价；空闲时段 1/4，缓存命中 0.02"
+    },
+    "deepseek-v4-flash": {
+      "input": 3,
+      "output": 9,
+      "cacheRead": 0.3,
+      "sourceUrl": "https://siliconflow.cn/pricing",
+      "verifiedAt": "2026-11-25",
+      "confidence": "third-party",
+      "note": "DeepSeek 官方价目未单列 V4 Flash，此处为硅基流动渠道价（峰值档）"
+    },
+
+    "glm-5.3": {
+      "input": 8,
+      "output": 28,
+      "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "verifiedAt": "2026-11-25"
+    },
+    "glm-5.3-flash": {
+      "input": 0.8,
+      "output": 2.8,
+      "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "verifiedAt": "2026-11-25"
+    },
+    "glm-5.3-flashx": {
+      "input": 2,
+      "output": 7,
+      "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "verifiedAt": "2026-11-25"
+    },
+    "glm-5.2": {
+      "input": 8,
+      "output": 28,
+      "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "verifiedAt": "2026-11-25"
+    },
+    "glm-5.1": {
+      "input": 6,
+      "output": 24,
+      "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "阶梯价：输入 0–32K 为 6/24，≥32K 为 8/28，此处取低档"
+    },
+    "glm-4.7": {
+      "input": 2,
+      "output": 8,
+      "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "阶梯价：低档 2/8，中档 3/14，高档 4/16，此处取最低档"
+    },
+    "glm-4.7-flash": {
+      "input": 0,
+      "output": 0,
+      "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "官方标注免费"
+    },
+    "glm-4.5-air": {
+      "input": 0.8,
+      "output": 2,
+      "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "阶梯价：输入 ≤32K 且输出 ≤0.2K 为 0.8/2，输出 >0.2K 为 0.8/6，32K–128K 为 1.2/8"
+    },
+
+    "kimi-k3.1-pro": {
+      "input": 13,
+      "output": 68,
+      "cacheRead": 1.3,
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/kimi-k3-1-pro",
+      "verifiedAt": "2026-11-25",
+      "note": "经阿里百炼渠道核对，与 Kimi 开放平台同价"
+    },
+    "kimi-k3": {
+      "input": 20,
+      "output": 100,
+      "cacheRead": 2,
+      "sourceUrl": "https://m.blog.csdn.net/aidoudoulong/article/details/171089685",
+      "verifiedAt": "2026-11-25",
+      "confidence": "third-party",
+      "note": "四家平台价目交叉一致（Kimi 开放平台/腾讯/阿里/七牛），未直接核对官方页面"
+    },
+    "kimi-k2.6": {
+      "input": 6.5,
+      "output": 27,
+      "cacheRead": 1.3,
+      "sourceUrl": "https://m.blog.csdn.net/aidoudoulong/article/details/171089685",
+      "verifiedAt": "2026-11-25",
+      "confidence": "third-party",
+      "note": "与硅基流动渠道价一致，未直接核对官方页面"
+    },
+    "kimi-k2.7-code": {
+      "input": 6.5,
+      "output": 27,
+      "cacheRead": 1.3,
+      "sourceUrl": "https://m.blog.csdn.net/aidoudoulong/article/details/171089685",
+      "verifiedAt": "2026-11-25",
+      "confidence": "third-party",
+      "note": "与硅基流动渠道价一致，未直接核对官方页面"
+    },
+
+    "doubao-seed-2.1-pro": {
+      "input": 6,
+      "output": 30,
+      "sourceUrl": "https://docs.volcengine.com/docs/82379/1099320",
+      "verifiedAt": "2026-11-25",
+      "note": "在线推理常规价；批量推理 3/15"
+    },
+    "doubao-seed-2.1-lite": {
+      "input": 0.8,
+      "output": 2.7,
+      "sourceUrl": "https://docs.volcengine.com/docs/82379/1099320",
+      "verifiedAt": "2026-11-25",
+      "note": "在线推理常规价；批量推理 0.4/1.35"
+    },
+    "doubao-seed-2.1-turbo": {
+      "input": 3,
+      "output": 15,
+      "sourceUrl": "https://docs.volcengine.com/docs/82379/1099320",
+      "verifiedAt": "2026-11-25",
+      "note": "在线推理常规价；批量推理 1.5/7.5"
+    },
+    "doubao-seed-2.0-pro": {
+      "input": 3.2,
+      "output": 16,
+      "sourceUrl": "https://docs.volcengine.com/docs/82379/1099320",
+      "verifiedAt": "2026-11-25",
+      "note": "阶梯价：≤32K 为 3.2/16，32K–128K 为 4.8/24，128K–256K 为 9.6/48，此处取低档"
+    },
+    "doubao-seed-2.0-lite": {
+      "input": 0.6,
+      "output": 3.6,
+      "sourceUrl": "https://docs.volcengine.com/docs/82379/1099320",
+      "verifiedAt": "2026-11-25",
+      "note": "阶梯价：≤32K 为 0.6/3.6，32K–128K 为 0.9/5.4，128K–256K 为 1.8/10.8，此处取低档"
+    },
+
+    "minimax-m3.1-flash": {
+      "input": 1,
+      "output": 4,
+      "sourceUrl": "https://platform.minimax.cn/docs/guides/pricing",
+      "verifiedAt": "2026-11-25"
+    },
+    "minimax-m3": {
+      "input": 2.1,
+      "output": 8.4,
+      "sourceUrl": "https://platform.minimax.cn/docs/guides/pricing",
+      "verifiedAt": "2026-11-25",
+      "note": "标准价，输入 ≤512K；>512K 为 4.2/16.8；优先服务为标准价 1.5 倍"
+    },
+
+    "hunyuan-a13b": {
+      "input": 0.5,
+      "output": 2,
+      "sourceUrl": "https://cloud.tencent.com/document/product/1729/97731",
+      "verifiedAt": "2026-11-25",
+      "note": "腾讯云混元价格文档；表中单位已按元/百万 token 记录，建议二次核对单位口径"
+    },
+
+    "step-5-preview": {
+      "input": 7,
+      "output": 20,
+      "cacheRead": 0.7,
+      "sourceUrl": "https://www.donews.com/news/1/6738086.html",
+      "verifiedAt": "2026-11-25",
+      "confidence": "third-party",
+      "note": "2026-10-14 调价后的官方报价，媒体转引，未直接核对官方页"
+    },
+    "step-3.7-flash": {
+      "input": 1.35,
+      "output": 8.1,
+      "cacheRead": 0.27,
+      "sourceUrl": "https://www.navcn.cn/tool/2401.html",
+      "verifiedAt": "2026-11-25",
+      "confidence": "third-party",
+      "note": "第三方聚合站，未核对官方定价页"
+    },
+    "step-3.5-flash": {
+      "input": 0.7,
+      "output": 2.1,
+      "sourceUrl": "https://www.navcn.cn/tool/2401.html",
+      "verifiedAt": "2026-11-25",
+      "confidence": "third-party",
+      "note": "第三方聚合站，未核对官方定价页"
+    },
+
+    "ernie-5.5-flash": {
+      "input": 2,
+      "output": 8,
+      "cacheRead": 0.2,
+      "sourceUrl": "https://finance.sina.cn/2026-11-11/detail-iniyixxy1994456.d.html",
+      "verifiedAt": "2026-11-25",
+      "confidence": "third-party",
+      "note": "千帆忙时价；闲时 1/4，缓存命中 0.1；限时五折期间忙时 1/4"
+    }
+  }
+}

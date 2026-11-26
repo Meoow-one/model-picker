@@ -1,0 +1,61 @@
+name: sync-model-data
+
+on:
+  schedule:
+    # 周日 19:00 UTC = 周一 03:00 北京时间
+    - cron: "0 19 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 拉取并归一化数据
+        id: sync
+        run: npm run sync
+
+      - name: 单元测试
+        run: npm test
+
+      - name: 校验数据规模未骤降
+        run: |
+          node -e "
+          const d=require('./data/models.json');
+          if (d.models.length < 30) { console.error('模型数异常减少:', d.models.length); process.exit(1) }
+          console.log('模型数', d.models.length);
+          "
+
+      - name: 提交变更
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/models.json data/meta.json data/price-review.csv
+          if git diff --cached --quiet; then
+            echo "无变更"
+          else
+            git commit -m "chore(data): weekly model sync $(date -u +%F)"
+            git push
+          fi
+
+      - name: 失败时开 Issue 告警
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "数据同步失败 $(date -u +%F)" \
+            --body "定时同步在 ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }} 失败。线上数据保持上一次快照，请检查数据源结构是否变更。" \
+            --label data-sync || true

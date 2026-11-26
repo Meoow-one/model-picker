@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "benchmarks": {
+    "opencompass_overall": {
+      "label": "OpenCompass 司南 · 综合",
+      "unit": "score",
+      "higherIsBetter": true,
+      "source": "OpenCompass 司南官方评测榜单 V3.0",
+      "sourceUrl": "https://rank.opencompass.org.cn/",
+      "asOf": "2026-11-20",
+      "scores": {
+        "kimi-k3.1-pro": 78.47,
+        "qwen4-max": 71.82,
+        "doubao-seed-2.1-pro": 71.8,
+        "qwen3.8-max": 71.74,
+        "glm-5.3": 71.45,
+        "deepseek-v4.1-flash": 70.4,
+        "qwen3.8-flash": 68.49,
+        "glm-5.3-flash": 68.46,
+        "kimi-k3": 66.85,
+        "deepseek-v4-pro": 66.38,
+        "step-5-preview": 64.72,
+        "minimax-m3.1-flash": 60.85,
+        "minimax-m3": 60.4
+      }
+    },
+    "opencompass_knowledge": {
+      "label": "OpenCompass 司南 · 知识",
+      "unit": "score",
+      "higherIsBetter": true,
+      "source": "OpenCompass 司南官方评测榜单 V3.0",
+      "sourceUrl": "https://rank.opencompass.org.cn/",
+      "asOf": "2026-11-20",
+      "scores": {
+        "kimi-k3.1-pro": 72,
+        "qwen4-max": 64,
+        "doubao-seed-2.1-pro": 72,
+        "qwen3.8-max": 78,
+        "glm-5.3": 72,
+        "deepseek-v4.1-flash": 68,
+        "qwen3.8-flash": 66,
+        "glm-5.3-flash": 66,
+        "kimi-k3": 70,
+        "deepseek-v4-pro": 66,
+        "step-5-preview": 64,
+        "minimax-m3.1-flash": 56,
+        "minimax-m3": 62
+      }
+    },
+    "opencompass_agentic": {
+      "label": "OpenCompass 司南 · 智能体",
+      "unit": "score",
+      "higherIsBetter": true,
+      "source": "OpenCompass 司南官方评测榜单 V3.0",
+      "sourceUrl": "https://rank.opencompass.org.cn/",
+      "asOf": "2026-11-20",
+      "scores": {
+        "kimi-k3.1-pro": 72.53,
+        "qwen4-max": 67.98,
+        "doubao-seed-2.1-pro": 65.26,
+        "qwen3.8-max": 58.9,
+        "glm-5.3": 61.89,
+        "deepseek-v4.1-flash": 61.73,
+        "qwen3.8-flash": 56.12,
+        "glm-5.3-flash": 60.21,
+        "kimi-k3": 57.31,
+        "deepseek-v4-pro": 60.39,
+        "step-5-preview": 50.05,
+        "minimax-m3.1-flash": 54.46,
+        "minimax-m3": 51.05
+      }
+    },
+    "superclue_overall": {
+      "label": "SuperCLUE 总榜（2026-11）",
+      "unit": "score",
+      "higherIsBetter": true,
+      "source": "SuperCLUE General Leaderboard（2026 年 11 月）",
+      "sourceUrl": "https://www.superclueai.com/generalpage",
+      "asOf": "2026-11",
+      "scores": {
+        "qwen4-max": 61.61,
+        "kimi-k3.1-pro": 61.46,
+        "deepseek-v4.1-flash": 58.95,
+        "glm-5.3": 50.66,
+        "glm-5.3-flash": 47.18,
+        "qwen3.8-max": 43.22,
+        "doubao-seed-2.1-pro": 42.06,
+        "minimax-m3.1-flash": 41.35,
+        "step-5-preview": 41.23,
+        "minimax-m3": 41.17,
+        "qwen3.8-flash": 39.81
+      }
+    },
+    "ttft_ms": {
+      "label": "Artificial Analysis · 首 token",
+      "unit": "ms",
+      "higherIsBetter": false,
+      "source": "Artificial Analysis",
+      "sourceUrl": "https://artificialanalysis.ai/models",
+      "asOf": null,
+      "scores": {
+        "qwen4-max": 6140,
+        "deepseek-v4.1-flash": 960,
+        "glm-5.3": 4330,
+        "minimax-m3.1-flash": 1540,
+        "deepseek-v4-pro": 2160
+      }
+    },
+    "output_tokens_per_s": {
+      "label": "Artificial Analysis · 输出速度",
+      "unit": "tokens_per_s",
+      "higherIsBetter": true,
+      "source": "Artificial Analysis",
+      "sourceUrl": "https://artificialanalysis.ai/models",
+      "asOf": null,
+      "scores": {
+        "qwen4-max": 93,
+        "deepseek-v4.1-flash": 180,
+        "glm-5.3": 71,
+        "minimax-m3.1-flash": 131,
+        "deepseek-v4-pro": 85
+      }
+    }
+  }
+}
